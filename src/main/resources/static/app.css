@@ -1,0 +1,152 @@
+/* CSS file for the application */
+
+
+
+/*
+Styles applied to every element
+*/
+* {
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+/* 
+Media queries for responsive design 
+*/
+@media all and (min-width: 0rem) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media all and (min-width: 10rem) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 20rem) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width: 30rem) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 48rem) {
+    :root {
+        font-size: 15px;
+    }
+}
+
+@media all and (min-width: 62rem) {
+    :root {
+        font-size: 17px;
+    }
+}
+
+@media all and (min-width: 75rem) {
+    :root {
+        font-size: 18px;
+    }
+}
+
+
+/* 
+Rectangle addition page
+*/
+.addPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 4.5rem;
+}
+
+.addTitle {
+    color: rgb(0, 204, 126);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.nameInput {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 17rem;
+    border: 0.1rem solid rgb(197, 196, 196);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    min-height: 3rem;
+}
+.widthInput {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 17rem;
+    border: 0.1rem solid rgb(197, 196, 196);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    min-height: 3rem;
+}
+.heightInput {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 17rem;
+    border: 0.1rem solid rgb(197, 196, 196);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    min-height: 3rem;
+}
+.colorInput {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 17rem;
+    border: 0.1rem solid rgb(197, 196, 196);
+    border-radius: 1rem;
+    padding: 0.8rem;  
+    min-height: 3rem;
+}
+.addBtn {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 17rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    min-height: 3rem;
+    color: black;
+    background-color: rgba(0, 255, 157, 0.726);
+}
+
+.displayBtn {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    width: 17rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    min-height: 3rem;
+    color: black;
+    background-color: rgba(0, 255, 157, 0.726);
+}
