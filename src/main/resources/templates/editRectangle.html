@@ -54,7 +54,7 @@
                         <input type = "submit" value = "Update Rectangle" class = "border border-3 border-danger-subtle rounded p-2 mt-4 mb-5 fw-medium">
                         
                         <!-- Rectangle -->
-                        <div th:text = "${rectangle.getName()}" th:style="'background-color: ' + ${rectangle.getColor()} + ';' + 'height: ' + 
+                        <div th:text = "${rectangle.getName()}" th:style="'background-color: ' + '#' + ${rectangle.getColor()} + ';' + 'height: ' + 
                         ${rectangle.getHeight()} + 'px;' + 'width: ' + ${rectangle.getWidth()} + 'px;'" class = "mb-4 fw-bold"> </div> 
 
                         <!-- ID -->
